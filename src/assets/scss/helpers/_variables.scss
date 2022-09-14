@@ -1,0 +1,5 @@
+@use 'sass:color';
+
+$main-color: #42d3c0;
+$dark-main-color: color.adjust($main-color, $lightness: -18%);
+$main-font: Ubuntu, sans-serif;
