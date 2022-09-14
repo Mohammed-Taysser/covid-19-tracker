@@ -1,0 +1,6 @@
+{
+	"ignore": [
+		"**/*.min.js,**/*.map"
+	],
+	"pattern": "dist/**/*.js"
+}
