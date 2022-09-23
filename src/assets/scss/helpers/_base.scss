@@ -1,3 +1,34 @@
+.status-card {
+	border: none;
+	border-bottom: 5px solid;
+
+	&.confirmed {
+		border-bottom-color: rgb(153, 102, 255);
+	}
+
+	&.recovered {
+		border-bottom-color: rgb(75, 192, 192);
+	}
+
+	&.deaths {
+		border-bottom-color: rgb(255, 99, 132);
+	}
+}
+
+.react-select__menu {
+	border: none;
+	box-shadow: 0 3px 15px rgba(22, 41, 124, 0.1);
+}
+
+.react-select__option {
+	cursor: pointer;
+}
+
+.react-select__option.react-select__option--is-selected,
+.react-select__option:hover {
+	background-color: $main-color;
+	color: #fff;
+}
 
 @media (min-width: 576px) {
 }
